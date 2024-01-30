@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html{
+        @apply bg-black
+    }
+    button{
+        @apply border border-white text-white
+    }
+    h1{
+        @apply text-white
+    }
+    p{
+        @apply text-white
+    }
+}
